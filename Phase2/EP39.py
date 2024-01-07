@@ -23,8 +23,7 @@ for i in range(len(number)) :
 print(number)
     
 
-
-
+#คือเพื่งรู้ตอนดูเฉลยว่า มันมี .sort() กับ .reverse() ไว้ให้เราใช้
         
 
 
