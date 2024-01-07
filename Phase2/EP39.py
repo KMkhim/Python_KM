@@ -10,27 +10,23 @@ while(i >= 0) :
     i+=1
 
 i = 0
-k = len(number)
-for i in range(k) :
+for i in range(len(number)) :
     box = []
     box.append(number[i])
-    print("box : " , box)
-    for j in range(i , k) :
-        print("j is : " , j)
+    for j in range(i , len(number)) :
         if(box[0] >= number[j]) :
             box[0] = number[j]
             box.insert(1 , j)
-        print("box[0] is ", box[0])
     z = number[i]
     number[i] = box[0]
     number[box[1]] = z
-    print("number[i] : " ,i , number[i])
-    print("")
+print(number)
+    
 
 
 
         
 
-print(number)
+
 
 
